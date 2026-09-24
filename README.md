@@ -12,7 +12,7 @@
 
 
 
-\*\*\[Live Demo](https://your-app.vercel.app)\*\* · \*\*\[Source Code](https://github.com/yourname/finance-dashboard)\*\*
+\*\*\[Live Demo](https://businessperformancedashboard.vercel.app)\*\* · \*\*\[Source Code](https://github.com/Morganliew97/Business-Performance-Dashboard)\*\*
 
 
 
@@ -358,33 +358,33 @@ what."
 
 src/
 
-\\\&#x20; components/   Reusable UI building blocks (Sidebar, Header, KPICard,
+\\\\\\\&#x20; components/   Reusable UI building blocks (Sidebar, Header, KPICard,
 
-\\\&#x20;               ChartCard, DataTable, StatusBadge, InsightCard, AlertCard,
+\\\\\\\&#x20;               ChartCard, DataTable, StatusBadge, InsightCard, AlertCard,
 
-\\\&#x20;               FilterBar, PerformanceKpiCard, MonthlyCategoryPivot)
+\\\\\\\&#x20;               FilterBar, PerformanceKpiCard, MonthlyCategoryPivot)
 
-\\\&#x20; pages/        One file per route (Dashboard, RevenueAnalysis,
+\\\\\\\&#x20; pages/        One file per route (Dashboard, RevenueAnalysis,
 
-\\\&#x20;               AccountsReceivable, Expenses, Performance, Insights,
+\\\\\\\&#x20;               AccountsReceivable, Expenses, Performance, Insights,
 
-\\\&#x20;               DataManagement, Settings, UserProfile)
+\\\\\\\&#x20;               DataManagement, Settings, UserProfile)
 
-\\\&#x20; data/         Mock business data — single source of truth
+\\\\\\\&#x20; data/         Mock business data — single source of truth
 
-\\\&#x20; utils/        Pure business logic:
+\\\\\\\&#x20; utils/        Pure business logic:
 
-\\\&#x20;                 - calculations.js       derived KPIs, AR aging, variance
+\\\\\\\&#x20;                 - calculations.js       derived KPIs, AR aging, variance
 
-\\\&#x20;                 - calculations.test.js  35 unit tests
+\\\\\\\&#x20;                 - calculations.test.js  35 unit tests
 
-\\\&#x20;                 - kpiDefinitions.js     KPI metadata + evaluation rules
+\\\\\\\&#x20;                 - kpiDefinitions.js     KPI metadata + evaluation rules
 
-\\\&#x20; context/      Shared state:
+\\\\\\\&#x20; context/      Shared state:
 
-\\\&#x20;                 - DataContext.jsx       editable data arrays
+\\\\\\\&#x20;                 - DataContext.jsx       editable data arrays
 
-\\\&#x20;                 - FilterContext.jsx     global filter state
+\\\\\\\&#x20;                 - FilterContext.jsx     global filter state
 
 ```
 
@@ -404,21 +404,21 @@ src/
 
 ```bash
 
-\\\\# 1. Install dependencies
+\\\\\\\\# 1. Install dependencies
 
 npm install
 
 
 
-\\\\# 2. Start the development server
+\\\\\\\\# 2. Start the development server
 
 npm run dev
 
 
 
-\\\\# 3. Open the app
+\\\\\\\\# 3. Open the app
 
-\\\\# Vite will print a local URL (typically http://localhost:5173)
+\\\\\\\\# Vite will print a local URL (typically http://localhost:5173)
 
 ```
 
