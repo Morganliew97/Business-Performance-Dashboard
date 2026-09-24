@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  @apply bg-canvas text-ink-900 font-sans;
+  font-feature-settings: 'tnum' 1, 'cv11' 1;
+}
+
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Scrollbar - subtle, professional */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #CBD5E1;
+  border-radius: 8px;
+}
+
+:focus-visible {
+  outline: 2px solid #2451CC;
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
